@@ -32,6 +32,17 @@ function calculate(num1, num2, op) {
 
 console.log(calculate(num1, num2, operation));
 
+let person = {
+    name: 'Jerome',
+    age: 19,
+    greet: function() {
+        return `Hello, ${this.name}!`;
+    }
+};
+
+console.log(person.name);  // Output: Jerome
+console.log(person.greet());  // Output: Hello, Jerome!
+
 /* Variables 
 let name = 'Jerome';
 const age = 19;
